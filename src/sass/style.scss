@@ -1,5 +1,9 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/animate.min'; 
+@import 'libs/fonts';
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/animations';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -11,6 +15,8 @@
 @import 'blocks/catalog';
 @import 'blocks/feedbacks';
 @import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
 @import 'media';
 
 * 
@@ -24,3 +30,7 @@
 		max-width: 950px;
 		margin: 0 auto;
 	} 
+	
+html {
+		scroll-behavior: smooth;
+	  }
